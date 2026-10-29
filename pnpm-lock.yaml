@@ -156,7 +156,7 @@ importers:
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.3.0
-        version: 4.3.0(vite@7.3.5(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0))
+        version: 4.3.0(vite@7.3.7(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0))
       tailwindcss:
         specifier: ^4.3.0
         version: 4.3.0
@@ -164,8 +164,8 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
       vite:
-        specifier: 7.3.5
-        version: 7.3.5(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0)
+        specifier: 7.3.7
+        version: 7.3.7(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0)
 
 packages:
 
@@ -2161,8 +2161,8 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
-  vite@7.3.5:
-    resolution: {integrity: sha512-KuOaNhcnGFN2zIPGA7wRmzF+lJA1sea7rHq17aiJ++9lzY1WWG6Jpwqwe1KNbRVPIqHmr8GLYx7jbrQcN/7/ww==}
+  vite@7.3.7:
+    resolution: {integrity: sha512-AHEzTORMbi7/7aXp7w7KZ5+DCUdSeLsJz0grY8xHpc9DHdYb0vQu6DqJfm2tOw3gDExNgPgnJTXxM6syYFHaCA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3042,12 +3042,12 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.3.0
       '@tailwindcss/oxide-win32-x64-msvc': 4.3.0
 
-  '@tailwindcss/vite@4.3.0(vite@7.3.5(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0))':
+  '@tailwindcss/vite@4.3.0(vite@7.3.7(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0))':
     dependencies:
       '@tailwindcss/node': 4.3.0
       '@tailwindcss/oxide': 4.3.0
       tailwindcss: 4.3.0
-      vite: 7.3.5(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0)
+      vite: 7.3.7(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0)
 
   '@tybys/wasm-util@0.10.3':
     dependencies:
@@ -4076,7 +4076,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@7.3.5(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0):
+  vite@7.3.7(@types/node@24.12.4)(jiti@2.7.0)(lightningcss@1.33.0):
     dependencies:
       esbuild: 0.28.1
       fdir: 6.5.0(picomatch@4.0.4)
